@@ -14,6 +14,11 @@ You should see a quota like the following:
 - Per-user limit:	5 requests/second/user
 
 
+# Polling 
 
+You should be able to poll the interactions with the sample application
+noted below: 
+
+https://code.google.com/p/google-plus-hangout-samples/downloads/list
 
 
