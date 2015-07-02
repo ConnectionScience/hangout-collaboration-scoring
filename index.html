@@ -1,16 +1,98 @@
+<!DOCTYPE html>
 <html>
+
   <head>
-    <title>Hangout button demo: Async load</title>
-    <link rel="canonical" href="http://www.example.com" />
-    <script src="https://apis.google.com/js/platform.js" async defer>
-    </script>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description" content="Smart Collaboration : Another Fine Summer Project by the MIT Human Dynamics Lab Computational Law Research and Development">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Smart Collaboration</title>
   </head>
+
   <body>
-    <g:hangout render="createhangout"
-        invites="[{ id : 'keller.scholl@gmail.com', invite_type : 'EMAIL' }]"
-        <!-- hangout_type="onair" -->
-        topic="Proof of basic competency.">
-    </g:hangout>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/ConnectionScience/hangout-collaboration-scoring">View on GitHub</a>
+
+          <h1 id="project_title">Smart Collaboration</h1>
+          <h2 id="project_tagline">Another Fine Summer Project by the MIT Human Dynamics Lab Computational Law Research and Development</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/ConnectionScience/hangout-collaboration-scoring/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/ConnectionScience/hangout-collaboration-scoring/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h2>
+<a id="goal" class="anchor" href="#goal" aria-hidden="true"><span class="octicon octicon-link"></span></a>Goal</h2>
+
+<p>We want to be able to collect collaboration signals for hackathons by building an online hackathon tool that supports project workspaces.  During work this spring we built the basic framework for project disclosure, reviews,  and event summarization but in order to obtain data on individual and project performance as well as group collaboration we would need workspaces that support online meetings (Google Hangouts), chat (IRC), and code (git and pull request discussions).  </p>
+
+<p>This would focus effort directly on running hackathons that are completely virtual rather than the in person hackathons that are currently supported by applications.  However, for this summer some of the core functionality that would need to be present for large-scale deployment (dynamic scheduling, initial project vetting, and team formation recommendations) would not be a top priority. The focus would be on prototyping the tools for collecting and analysing the data on collaboration from the workspace. </p>
+
+<p>The long-term goal of this effort is triggering system processes for automated resource allocation and collaboration at large scale.</p>
+
+<p>Keywords: 
+hackathons, 
+group 
+dynamics, 
+microtasking </p>
+
+<h2>
+<a id="schedule" class="anchor" href="#schedule" aria-hidden="true"><span class="octicon octicon-link"></span></a>Schedule</h2>
+
+<p>We’ll be looking at syncing up weekly. </p>
+
+<ul>
+<li>Start of September should have the core systems in place for monitoring collaboration signals in Google Hangouts</li>
+<li>Start of October should see operationalized systems for persisting collaboration data as well as visualization</li>
+<li>CALIHack 2016 next spring is tentatively set as the first large-scale online hackathon that would use the tool</li>
+<li>Smaller hackathons, including<br>
+</li>
+</ul>
+
+<p>[tbd]</p>
+
+<h2>
+<a id="scope" class="anchor" href="#scope" aria-hidden="true"><span class="octicon octicon-link"></span></a>Scope</h2>
+
+<p>Create Personal Identity Accounts with OAuth2</p>
+
+<p>Create Project Workspaces (Google Hangouts, GitHub, chat)</p>
+
+<p>Models supporting online hackathon: User, Event, Workspace, Project, Role, Rating</p>
+
+<p>Twitter Ratings</p>
+
+<p>Create Event scheduling</p>
+
+<p>Prepare Collaboration Analytics </p>
+
+<p>Involve external groups in collecting feedback verify Collaboration Analytics</p>
+
+<p>Coordinate with Google, GitHub, and Slack to estimate scaling of the workspaces</p>
+
+<p>Support analytics that are tied to a Personal Data Service (owner labels on collaboration signals)</p>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Smart Collaboration maintained by <a href="https://github.com/ConnectionScience">ConnectionScience</a></p>
+        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
 
   </body>
 </html>
